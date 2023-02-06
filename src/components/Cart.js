@@ -4,7 +4,7 @@ import {changeAge} from '../redux/user';
 function Cart(){
   let state = useSelector(state => state);
   let dispatch = useDispatch();
-  console.log(state)
+  // console.log(state)
   return (
     <div>
      <p>{state.user.people}</p>
